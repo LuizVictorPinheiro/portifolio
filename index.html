@@ -3,9 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfólio</title>
+    <title>Luiz Victor | Desenvolvedor Full Stack</title>
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
     <link
@@ -13,7 +13,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="icon" href="/assets/favicon.jpg" type="image/x-icon">
+    <link rel="icon" href="assets/favicon.jpg" type="image/x-icon" />
   </head>
   <body>
     <!-- Header e Navegação -->
@@ -35,6 +35,9 @@
               <a href="#sobre" class="nav-link">Sobre</a>
             </li>
             <li class="nav-item">
+              <a href="#experiencia" class="nav-link">Experiência</a>
+            </li>
+            <li class="nav-item">
               <a href="#habilidades" class="nav-link">Habilidades</a>
             </li>
             <li class="nav-item">
@@ -54,8 +57,12 @@
         <div class="container">
           <div class="hero-content">
             <div class="hero-texto">
+              <span class="pre-titulo">Olá, eu sou</span>
               <h1 class="hero-titulo">Luiz Victor</h1>
-              <p class="hero-subtitulo">Desenvolvedor Full Stack</p>
+              <p class="hero-subtitulo">Desenvolvedor <span class="destaque">Full Stack</span></p>
+              <p class="hero-descricao">
+                Transformando ideias em experiências digitais de alta qualidade com foco em performance e usabilidade.
+              </p>
               <div class="hero-actions">
                 <a href="#contato" class="btn btn-primary">Entre em contato</a>
                 <a href="#projetos" class="btn btn-outline">Ver projetos</a>
@@ -75,106 +82,181 @@
           <div class="sobre-conteudo">
             <div class="sobre-texto">
               <p>
-                Olá! Sou um desenvolvedor Front-End apaixonado por criar
-                interfaces interativas e intuitivas. Com experiência em HTML,
-                CSS, JavaScript e frameworks modernos, busco sempre entregar
-                projetos com código limpo e de alta qualidade.
+                Desenvolvedor Full Stack com experiência em criar aplicações web responsivas e eficientes. Minha abordagem combina conhecimento técnico com uma visão estratégica para desenvolver soluções que não apenas atendem, mas excedem as expectativas.
               </p>
               <p>
-                Minha jornada na programação começou há alguns anos, e desde
-                então venho aprimorando minhas habilidades e conhecimentos em
-                desenvolvimento web. Estou sempre em busca de novos desafios que
-                me permitam crescer profissionalmente e contribuir para projetos
-                inovadores.
+                Possuo profundo conhecimento em tecnologias front-end como React, Vue.js e Angular, além de experiência com Node.js, MongoDB e SQL no back-end. Sou apaixonado por criar interfaces intuitivas e acessíveis que proporcionam uma excelente experiência ao usuário.
               </p>
               <p>
-                Além do desenvolvimento, tenho interesse em design de interfaces
-                e experiência do usuário, buscando criar soluções que não apenas
-                funcionem bem, mas também proporcionem uma experiência agradável
-                aos usuários.
+                Graduado em Ciência da Computação, mantenho-me constantemente atualizado com as mais recentes tendências e tecnologias do mercado através de cursos, conferências e projetos pessoais.
               </p>
+              <div class="status-container">
+                <div class="status-item">
+                  <span class="status-numero">UVA</span>
+                  <span class="status-texto">1° período - Ciência da Computação</span>
+                </div>
+                <div class="status-item">
+                  <span class="status-numero">2+</span>
+                  <span class="status-texto">Projetos Concluídos</span>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-      <!-- Seção Habilidades -->
-      <section id="habilidades" class="habilidades">
+      <!-- Seção Experiência -->
+      <section id="experiencia" class="experiencia">
         <div class="container">
-          <h2 class="section-titulo">Habilidades</h2>
-          <div class="habilidades-grid">
-            <div class="habilidade-item">
-              <i class="fab fa-html5 habilidade-icone"></i>
-              <h3 class="habilidade-titulo">HTML5</h3>
-              <p class="habilidade-descricao">
-                Estruturação semântica e acessível para websites modernos.
-              </p>
+          <h2 class="section-titulo">Experiência</h2>
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <span class="timeline-date">Janeiro 2025 - Atual</span>
+                <h3 class="timeline-titulo">Cursando Ciência da Computação</h3>
+                <span class="timeline-empresa">UVA</span>
+                <p class="timeline-descricao">
+                  Atualmente estou no início da minha jornada acadêmica, cursando o primeiro período de Ciência da Computação. Estou adquirindo uma base sólida em lógica de programação, algoritmos e fundamentos de computação, que servirão como alicerce para minha carreira como desenvolvedor.
+                </p>
+              </div>
             </div>
-            <div class="habilidade-item">
-              <i class="fab fa-css3-alt habilidade-icone"></i>
-              <h3 class="habilidade-titulo">CSS3</h3>
-              <p class="habilidade-descricao">
-                Estilização avançada com Flexbox, Grid e animações.
-              </p>
-            </div>
-            <div class="habilidade-item">
-              <i class="fab fa-js habilidade-icone"></i>
-              <h3 class="habilidade-titulo">JavaScript</h3>
-              <p class="habilidade-descricao">
-                Desenvolvimento de funcionalidades interativas e dinâmicas.
-              </p>
-            </div>
-            <div class="habilidade-item">
-              <i class="fab fa-react habilidade-icone"></i>
-              <h3 class="habilidade-titulo">React</h3>
-              <p class="habilidade-descricao">
-                Criação de interfaces de usuário componentizadas e eficientes.
-              </p>
-            </div>
-            <div class="habilidade-item">
-              <i class="fab fa-sass habilidade-icone"></i>
-              <h3 class="habilidade-titulo">Sass</h3>
-              <p class="habilidade-descricao">
-                Pré-processamento CSS para estilos mais organizados.
-              </p>
-            </div>
-            <div class="habilidade-item">
-              <i class="fab fa-git-alt habilidade-icone"></i>
-              <h3 class="habilidade-titulo">Git</h3>
-              <p class="habilidade-descricao">
-                Versionamento de código e colaboração em equipe.
-              </p>
+            <div class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <span class="timeline-date">Dezembro de 2024 - Atual </span>
+                <h3 class="timeline-titulo">Início dos meus estudos</h3>
+                <span class="timeline-empresa">Alura</span>
+                <p class="timeline-descricao">
+                  Iniciei meus estudos em desenvolvimento web através da plataforma Alura, onde aprendi os fundamentos de HTML, CSS e JavaScript. Esses conhecimentos me permitiram criar páginas web estruturadas, estilizadas e interativas, servindo como base para projetos mais avançados no futuro.
+                </p>
+              </div>
             </div>
           </div>
         </div>
+      </section>
+      <div class="container">
+      <h2 class="section-title">Habilidades</h2>
+      <div class="skills-category">
+        <h3 class="category-title">Front-end</h3>
+        <div class="skills-cards">
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fab fa-html5" style="color: #e34f26;"></i>
+            </div>
+            <h4 class="skill-name">HTML5</h4>
+            <p class="skill-description">Estruturação semântica e acessível para websites modernos.</p>
+          </div>
+  
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fab fa-css3-alt" style="color: #1572b6;"></i>
+            </div>
+            <h4 class="skill-name">CSS3</h4>
+            <p class="skill-description">Estilização avançada com Flexbox, Grid e animações.</p>
+          </div>
+  
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fab fa-js" style="color: #f7df1e;"></i>
+            </div>
+            <h4 class="skill-name">JavaScript</h4>
+            <p class="skill-description">Desenvolvimento de funcionalidades interativas e dinâmicas.</p>
+          </div>
+  
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fab fa-react" style="color: #61dafb;"></i>
+            </div>
+            <h4 class="skill-name">React</h4>
+            <p class="skill-description">Criação de interfaces de usuário componentizadas e eficientes.</p>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fab fa-sass" style="color: #cc6699;"></i>
+            </div>
+            <h4 class="skill-name">Sass/CSS</h4>
+            <p class="skill-description">Pré-processamento CSS para estilos mais organizados.</p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="skills-category">
+        <h3 class="category-title">Back-end</h3>
+        <div class="skills-cards">
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fab fa-node-js" style="color: #68a063;"></i>
+            </div>
+            <h4 class="skill-name">Node.js</h4>
+            <p class="skill-description">Desenvolvimento de servidores e APIs com JavaScript.</p>
+          </div>
+  
+  
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fas fa-database" style="color: #00618a;"></i>
+            </div>
+            <h4 class="skill-name">SQL</h4>
+            <p class="skill-description">Gerenciamento de bancos de dados relacionais.</p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="skills-category">
+        <h3 class="category-title">Ferramentas</h3>
+        <div class="skills-cards">
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fab fa-git-alt" style="color: #f05032;"></i>
+            </div>
+            <h4 class="skill-name">Git/GitHub</h4>
+            <p class="skill-description">Versionamento de código e colaboração em equipe.</p>
+          </div>
+  
+        
+        </div>
+      </div>
+    </div>
       </section>
 
       <!-- Seção Projetos -->
       <section id="projetos" class="projetos">
         <div class="container">
           <h2 class="section-titulo">Projetos</h2>
-          <div class="projetos-grid">
-            <div class="projeto-card">
-              <div class="projeto-imagem">
-                <img src="assets/favicon.jpg" alt="Portfolio" />
-              </div>
-              <div class="projeto-info">
-                <h3 class="projeto-titulo">Portfolio</h3>
-                <p class="projeto-descricao">
-                  Site voltado para exposição dos meus projetos. Responsivo e
-                  desenvolvido com HTML, CSS e JavaScript.
-                </p>
-                <div class="projeto-links">
-                  <a href="index.html" class="projeto-link"
-                    ><i class="fas fa-external-link-alt"></i> Demo</a
-                  >
-                  <a href="https://github.com/LuizVictorPinheiro/portifolio" class="projeto-link"
-                    ><i class="fab fa-github"></i> Código</a
-                  >
-                </div>
+          
+          <div class="projeto-destaque">
+            <div class="projeto-imagem">
+              <img src="/assets/favicon.jpg" alt="E-commerce Moderno" />
+              <div class="projeto-overlay">
+                <a href="index.html" class="projeto-link-overlay">
+                  <i class="fas fa-link"></i>
+                </a>
+                <a href="https://github.com/LuizVictorPinheiro/portifolio" class="projeto-link-overlay">
+                  <i class="fab fa-github"></i>
+                </a>
               </div>
             </div>
-          </div>
+            <div class="projeto-info">
+              <h3 class="projeto-titulo">Portfolio</h3>
+              <div class="projeto-tags">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+                <span class="tag">JavaScript</span>
+              </div>
+              <p class="projeto-descricao">
+                Meu portfólio apresenta uma coleção de projetos que demonstram minha habilidade em desenvolver soluções criativas e funcionais. Cada projeto reflete meu compromisso com a excelência técnica e a entrega de valor ao usuário final.
+              <h4 class="projeto-subtitulo">Destaques:</h4>
+              <p class="projeto-descricao">
+                • Interface responsiva e intuitiva<br>
+                • UI/UX<br>
+              </p>
+              <div class="projeto-links">
+                <a href="index.html" class="btn btn-primary btn-sm">Ver Demo</a>
+                <a href="https://github.com/LuizVictorPinheiro/portifolio" class="btn btn-outline btn-sm">Ver Código</a>
+              </div>
+            </div>
+          </div>                 
         </div>
       </section>
 
@@ -184,77 +266,68 @@
           <h2 class="section-titulo">Contato</h2>
           <div class="contato-container">
             <div class="contato-info">
-              <p>
-                Tem interesse em trabalharmos juntos? Entre em contato ou me
-                encontre nas redes sociais.
+              <p class="contato-texto">
+                Estou disponível para novos projetos e oportunidades. Entre em contato para discutirmos como posso ajudar a transformar suas ideias em realidade.
               </p>
               <div class="contato-detalhes">
                 <div class="contato-item">
-                  <i class="fas fa-envelope"></i>
-                  <span>luizvictorpinheiro2407@gmail.com</span>
+                  <div class="contato-icone">
+                    <i class="fas fa-envelope"></i>
+                  </div>
+                  <div class="contato-conteudo">
+                    <h3 class="contato-titulo">Email</h3>
+                    <p class="contato-valor">Luizvictorpinheiro2407@gmail.com</p>
+                  </div>
                 </div>
                 <div class="contato-item">
-                  <i class="fas fa-phone"></i>
-                  <span>(21) 99677-1607</span>
+                  <div class="contato-icone">
+                    <i class="fas fa-phone"></i>
+                  </div>
+                  <div class="contato-conteudo">
+                    <h3 class="contato-titulo">Telefone</h3>
+                    <p class="contato-valor">+55 (21) 98765-4321</p>
+                  </div>
                 </div>
                 <div class="contato-item">
-                  <i class="fas fa-map-marker-alt"></i>
-                  <span>Rio de Janeiro, Brasil</span>
+                  <div class="contato-icone">
+                    <i class="fas fa-map-marker-alt"></i>
+                  </div>
+                  <div class="contato-conteudo">
+                    <h3 class="contato-titulo">Localização</h3>
+                    <p class="contato-valor">Rio de Janeiro, Brasil</p>
+                  </div>
                 </div>
               </div>
               <div class="redes-sociais">
-                <a href="https://www.linkedin.com/in/luiz-victor-pinheiro-649231354/" class="social-link" aria-label="LinkedIn"
-                  ><i class="fab fa-linkedin"></i
-                ></a>
-                <a href="https://github.com/LuizVictorPinheiro" class="social-link" aria-label="GitHub"
-                  ><i class="fab fa-github"></i
-                ></a>
+                <a href="https://www.linkedin.com/in/luiz-victor-pinheiro-649231354/" class="social-link">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="https://github.com/LuizVictorPinheiro/" class="social-link">
+                  <i class="fab fa-github"></i>
+                </a>                
               </div>
             </div>
-            <form class="contato-form">
+            <div class="contato-form">
               <div class="input-group">
                 <label for="nome">Nome</label>
-                <input
-                  type="text"
-                  id="nome"
-                  name="nome"
-                  placeholder="Seu nome completo"
-                  required
-                />
+                <input type="text" id="nome" placeholder="Seu nome completo" />
               </div>
               <div class="input-group">
                 <label for="email">Email</label>
-                <input
-                  type="email"
-                  id="email"
-                  name="email"
-                  placeholder="seu@email.com"
-                  required
-                />
+                <input type="email" id="email" placeholder="Seu email" />
               </div>
               <div class="input-group">
                 <label for="assunto">Assunto</label>
-                <input
-                  type="text"
-                  id="assunto"
-                  name="assunto"
-                  placeholder="Assunto da mensagem"
-                  required
-                />
+                <input type="text" id="assunto" placeholder="Assunto da mensagem" />
               </div>
               <div class="input-group">
                 <label for="mensagem">Mensagem</label>
-                <textarea
-                  id="mensagem"
-                  name="mensagem"
-                  placeholder="Digite sua mensagem aqui..."
-                  required
-                ></textarea>
+                <textarea id="mensagem" placeholder="Sua mensagem..."></textarea>
               </div>
-              <button type="submit" class="btn btn-primary">
-                Enviar Mensagem
+              <button type="submit" class="btn btn-primary btn-block">
+                <i class="fas fa-paper-plane"></i> Enviar Mensagem
               </button>
-            </form>
+            </div>
           </div>
         </div>
       </section>
@@ -265,34 +338,63 @@
       <div class="container">
         <div class="footer-content">
           <div class="footer-logo">LV</div>
-          <p class="footer-copyright">
-            © 2025 Luiz Victor - Todos os direitos reservados
-          </p>
+          <p class="footer-copyright">© 2025 Luiz Victor. Todos os direitos reservados.</p>
         </div>
       </div>
     </footer>
 
+    <!-- Scripts -->
     <script>
-      // Script para rolagem suave
-      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
-        anchor.addEventListener("click", function (e) {
-          e.preventDefault();
+      // Script para animar elementos quando entrarem na viewport
+      document.addEventListener('DOMContentLoaded', function() {
+        const observer = new IntersectionObserver((entries) => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add('animate-in');
+              observer.unobserve(entry.target);
+            }
+          });
+        }, {threshold: 0.1});
 
-          document.querySelector(this.getAttribute("href")).scrollIntoView({
-            behavior: "smooth",
+        // Elementos para animar
+        document.querySelectorAll('section, .timeline-item, .habilidade-categoria, .projeto-destaque, .contato-item')
+          .forEach(el => {
+            observer.observe(el);
+          });
+
+        // Navegação suave
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+          anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            
+            const targetId = this.getAttribute('href');
+            const targetElement = document.querySelector(targetId);
+            
+            if (targetElement) {
+              window.scrollTo({
+                top: targetElement.offsetTop - 80,
+                behavior: 'smooth'
+              });
+              
+              // Fechar menu móvel se estiver aberto
+              document.getElementById('menu-toggle').checked = false;
+            }
           });
         });
-      });
 
-      // Script para menu responsivo
-      const menuToggle = document.getElementById("menu-toggle");
-      const navLinks = document.querySelectorAll(".nav-link");
-
-      navLinks.forEach((link) => {
-        link.addEventListener("click", () => {
-          menuToggle.checked = false;
+        // Alterar header em scroll
+        window.addEventListener('scroll', function() {
+          const header = document.querySelector('.header');
+          if (window.scrollY > 100) {
+            header.style.padding = '15px 0';
+            header.style.boxShadow = '0 5px 20px rgba(0, 0, 0, 0.1)';
+          } else {
+            header.style.padding = '20px 0';
+            header.style.boxShadow = '0 2px 10px rgba(0, 0, 0, 0.1)';
+          }
         });
       });
     </script>
   </body>
 </html>
+                
